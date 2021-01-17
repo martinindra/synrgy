@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.1-web/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-5.15.1-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header dari form -->
+    <section id="header-form">
+      <h1>PT EXCELLENT</h1>
+      <p>
+        <i class="icons fas fs-fw fa-location-arrow"></i> Jl. Kembang Permai II
+        Blok I 5 No.6 Puri Indah, Jakarta Barat 11610
+      </p>
+      <p><i class="icons fa fs-fw fa-phone"></i> 021 - 93397876, 5805352</p>
+      <p>
+        <i class="icons fas fs-fw fa-fax"></i> Fax 021-5805352,
+        <i class="icons fa fs-fw fa-envelope"></i> E-mail: excellent@cbn.net.id
+      </p>
+      <hr class="pertama" />
+      <hr class="kedua" />
+    </section>
+
+    <!-- judul form -->
+    <section id="judul">
+      <h1 class="judul"><u>Formulir Pendaftaran</u></h1>
+
+      <div class="photo">
+        <h3>
+          pas foto <br />
+          4x6
+        </h3>
+        <button class="mybtn" id="mybtn">
+          <p><i>click here to open upload modal *)</i></p>
+        </button>
+      </div>
+    </section>
+
+    <!-- isi form pertama -->
+    <section class="isi-form" id="form-pertama">
+      <form action="" method="post">
+        <!-- form-pertama -->
+        <div id="form-pertama">
+          <!-- judul dari form pertama -->
+          <div class="judul-form">
+            <h4>1. Keterangan Pribadi</h4>
+          </div>
+          <!-- isi dari form pertama -->
+          <div class="isi-form">
+            <!-- row -->
+            <div class="row">
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="nama"> 01. Nama Lengkap</label>
+                </div>
+                <div class="col-8">
+                  <input class="form" type="text" name="nama" id="nama" />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="np"> 02. Nama Panggilan</label>
+                </div>
+                <div class="col-8">
+                  <input class="form" type="text" name="np" id="np" />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="jk"> 03. Jenis Kelamin *)</label>
+                </div>
+                <div class="col-8">
+                  <input
+                    type="radio"
+                    name="jk"
+                    id=""
+                    value="laki-laki"
+                  />laki-laki
+                  <input type="radio" name="jk" id="" value="perempuan" />
+                  perempuan
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="tempatlahir"> 04. Tempat Lahir</label>
+                </div>
+                <div class="col-8">
+                  <input
+                    class="form"
+                    type="text"
+                    name="tempatlahir"
+                    id="tempatlahir"
+                  />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="tanggallahir"> 05. Tanggal Lahir</label>
+                </div>
+                <div class="col-8">
+                  <input
+                    class="form"
+                    type="date"
+                    name="tanggallahir"
+                    id="tanggallahir"
+                  />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="agama"> 06. Agama *)</label>
+                </div>
+                <div class="col-8">
+                  <select name="agama" id="agama">
+                    <option value="">pilih agama</option>
+                    <option value="islam">islam</option>
+                    <option value="kristen">kristen</option>
+                    <option value="khatolik">khatolik</option>
+                    <option value="hindu">hindu</option>
+                    <option value="buddha">buddha</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="kewarganegaraan"> 07. Kewarganegaraan</label>
+                </div>
+                <div class="col-8">
+                  <input
+                    class="form"
+                    type="text"
+                    name="kewarganegaraan"
+                    id="kewarganegaraan"
+                  />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="anakke"> 08. Anak Ke</label>
+                </div>
+                <div class="col-8">
+                  <input class="form" type="number" name="anakke" id="anakke" />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="Saudara"> 09. Jumlah Saudara</label>
+                </div>
+                <div class="col-8">
+                  <input
+                    class="form"
+                    type="number"
+                    name="Saudara"
+                    id="Saudara"
+                  />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="status"> 10. status *)</label>
+                </div>
+                <div class="col-8">
+                  <input type="radio" name="status" id="" value="Kawin" />kawin
+                  <input
+                    type="radio"
+                    name="status"
+                    id=""
+                    value="BelumKawin"
+                  />belum kawin
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="sim"> 11. Jenis Sim</label>
+                </div>
+                <div class="col-8">
+                  <input class="form" type="text" name="sim" id="sim" />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <i>
+                  <div class="col-2">Keterangan</div>
+                  <div class="col-8">Pilih salah satu *)</div>
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- isi form kedua -->
+    <section style="margin-top: 20px" class="isi-form" id="form-kedua">
+      <form action="" method="post">
+        <!-- form-pertama -->
+        <div id="form-pertama">
+          <!-- judul dari form pertama -->
+          <div class="judul-form">
+            <h4>2. Keterangan Tempat Tinggal</h4>
+          </div>
+          <!-- isi dari form pertama -->
+          <div class="isi-form">
+            <!-- row -->
+            <div class="row">
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="alamat"> 01. Alamat Lengkap</label>
+                </div>
+                <div class="col-8">
+                  <textarea name="alamat" id="alamat" cols="30" rows="10">
+                  </textarea>
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="ktp"> 02. Nomor KTP</label>
+                </div>
+                <div class="col-8">
+                  <input class="form" type="text" name="ktp" id="ktp" />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="telp"> 03. No Telp.</label>
+                </div>
+                <div class="col-8">
+                  <input
+                    class="form"
+                    type="text"
+                    name="telp"
+                    id=""
+                    value="laki-laki"
+                  />
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="alamatlain">
+                    04. Alamat Lain yang dapat dihubungi</label
+                  >
+                </div>
+                <div class="col-8">
+                  <textarea
+                    name="alamatlain"
+                    id="alamatlain"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+
+              <!-- form group -->
+              <div class="form-group col-10">
+                <div class="col-2">
+                  <label for="telplain"> 05. No. Telp / Hp lain</label>
+                </div>
+                <div class="col-8">
+                  <input
+                    class="form"
+                    type="text"
+                    name="telplain"
+                    id="telplain"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <label for="photo">Upload Photo</label>
+        <br />
+        <input style="margin-top: 15px" type="file" name="photo" id="photo" />
+        <p style="color: red">
+          <i
+            >Upload Photo dengan ukuran 4x6 cm dan ukuran file kurang dari
+            1mb</i
+          >
+        </p>
+      </div>
+    </div>
+
+    <script src="jquery/myscript.js"></script>
+  </body>
+</html>
