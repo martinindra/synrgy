@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        // Selector dan event, effect, serta html
+        // selector tag nav yang mana akan langsung di hidden dari document ketika pertama kali direload
+        $("nav").hide();
+
+        // buttony yang dapat digunakan untuk memunculkan serta menghilangkan navbar
+        $("button").click(function () {
+          $("nav").toggle(1000);
+        });
+
+        // ketika input melakukan perubahan, maka akn mengirimkan nilai ke tag p dengan id warna. dengan pesan yang telah diberikan.
+        // contoh penggunaan di dalam JQuery HTML
+        $("input").change(function () {
+          $("p#warna").text(
+            "Warna yang dipilih adalah = hex code " + $("input").val()
+          );
+        });
+      });
+
+      // penggunaan dari selector dimulai dengan $(), lalu di lakukan sebuah event dengan .click() yang diberikan effect .toogle() dan html pada bagian .val atau .text()
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Contoh Penggunaan Event dan Effect</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <button id="showNav">Menu</button>
+    </header>
+    <!-- JQuery dalam HTML -->
+    <br />
+    <br />
+    <h1>contoh penggunaan JQuery HTML</h1>
+    <div>
+      <input type="color" name="warna" id="" />
+      <p id="warna"></p>
+    </div>
+  </body>
+</html>
