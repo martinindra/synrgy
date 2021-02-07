@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "isbn":"ISBN 123-1234-12-1",
+        "judul":"Agama Dalam Hati",
+        "penulis":"Ust. FH",
+        "genre":"Religion"
+    },
+    {
+        "id":2,
+        "isbn":"ISBN 124-1224-13-1",
+        "judul":"Cinta dalam diam",
+        "penulis":"Ust. Saya",
+        "genre":"Romance"
+    }
+]
