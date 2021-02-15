@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "title":"hati yang terluka",
+        "sinopsis":"hati ini terluka mas",
+        "penulis":"saya sendiri",
+        "genre":"horror"
+    },
+    {
+        "id":2,
+        "title":"hati yang terluka jilid 2",
+        "sinopsis":"hati ini terluka mas",
+        "penulis":"saya sendiri",
+        "genre":"horror"
+    }
+]

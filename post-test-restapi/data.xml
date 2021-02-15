@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<data>
+    <dataPertama>
+        <id>1</id>
+        <title>hati yang terluka</title>
+        <sinopsis>hati ini terluka mas</sinopsis>
+        <penulis>saya sendiri</penulis>
+        <genre>horror</genre>
+    </dataPertama>
+    <dataKedua>
+        <id>2</id>
+        <title>hati yang terluka jilid 2</title>
+        <sinopsis>hati ini terluka mas</sinopsis>
+        <penulis>saya sendiri</penulis>
+        <genre>horror</genre>
+    </dataKedua>
+</data>
